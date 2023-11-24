@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+    background-image: linear-gradient(180deg, rgba(9, 25, 51, 1) 37%, rgba(111, 28, 143, 1) 100%);
+} */
+
+.backgroundPage{
+    background-image: linear-gradient(180deg, rgba(9, 25, 51, 1) 37%, rgba(111, 28, 143, 1) 100%);
+}
+
+.logo{
+    text-shadow: 0px 0px 10px rgba(234, 1, 217, 0.8);
+    font-size:60px
+}
+.logo:hover{
+    text-shadow: 0px 0px 10px rgba(11, 189, 199, 0.8);
+    /* text-shadow: 0px 0px 10px rgba(214, 237, 44, 0.8); */
+}
+
+@layer components {
+
+    .editor-class h1, .preview h1 {
+        @apply text-4xl;
+        /* @apply font-bold; */
+      }
+      .editor-class h2, .preview h2 {
+        @apply text-3xl;
+        /* @apply font-bold; */
+      }
+      .editor-class h3, .preview h3 {
+        @apply text-2xl;
+        /* @apply font-bold; */
+      }
+      .editor-class h4, .preview h4 {
+        @apply text-xl;
+        /* @apply font-semibold; */
+      }
+      .editor-class h5, .preview h5 {
+        @apply text-[13.28px];
+        /* @apply font-semibold; */
+      }
+      .editor-class h6, .preview h6 {
+        @apply text-sm;
+        /* @apply font-semibold; */
+      }
+}

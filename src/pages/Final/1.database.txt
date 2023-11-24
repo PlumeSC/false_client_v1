@@ -1,0 +1,4 @@
+entity
+attribute
+relationship
+constrnint ข้อจำกัด
